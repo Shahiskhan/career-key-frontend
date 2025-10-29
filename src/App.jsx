@@ -6,6 +6,7 @@ import LoginPage from './pages/Auth/LoginPage'
 import SignupPage from './pages/Auth/SignupPage'
 import VerifierPortal from './pages/VerifierPortal'
 import StudentPortal from './pages/StudentPortal'
+import UniversityPortal from './pages/UniversityPortal'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/verifier-portal" element={<VerifierPortal />} />
         <Route path="/student-portal" element={<StudentPortal />} />
+        <Route path="/university-portal" element={<UniversityPortal />} />
       </Routes>
     </BrowserRouter>
   )

@@ -16,8 +16,13 @@ const LoginPage = () => {
     const handleLogin = (e) => {
         e.preventDefault();
         console.log(`${selectedRole} logging in...`, formData);
-        // navigate to student portal after successful (or placeholder) login
-        navigate('/student-portal');
+
+        // Navigate based on selected role
+        if (selectedRole === "Student") {
+            navigate('/student-portal');
+        } else if (selectedRole === "University") {
+            navigate('/university-portal');
+        }
     };
 
     return (
