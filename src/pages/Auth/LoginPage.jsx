@@ -22,6 +22,8 @@ const LoginPage = () => {
             navigate('/student-portal');
         } else if (selectedRole === "University") {
             navigate('/university-portal');
+        } else if (selectedRole === "HEC") {
+            navigate('/hec-portal');
         }
     };
 

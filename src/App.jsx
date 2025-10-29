@@ -7,6 +7,7 @@ import SignupPage from './pages/Auth/SignupPage'
 import VerifierPortal from './pages/VerifierPortal'
 import StudentPortal from './pages/StudentPortal'
 import UniversityPortal from './pages/UniversityPortal'
+import HecPortalPage from './pages/HecPortalPage'
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="/verifier-portal" element={<VerifierPortal />} />
         <Route path="/student-portal" element={<StudentPortal />} />
         <Route path="/university-portal" element={<UniversityPortal />} />
+        <Route path="/hec-portal" element={<HecPortalPage />} />
+
       </Routes>
     </BrowserRouter>
   )
