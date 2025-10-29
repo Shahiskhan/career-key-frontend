@@ -1,16 +1,63 @@
-# React + Vite
+# 🎓 CareerKey – Blockchain & AI-Enhanced Career Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CareerKey is a **React.js + Spring Boot** powered web application designed to revolutionize **degree attestation** and **career facilitation** in Pakistan 🇵🇰.  
+It securely verifies academic credentials using **Ethereum blockchain** and connects students to career opportunities through **intelligent data-driven recommendations**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Project Overview
 
-## React Compiler
+CareerKey bridges the gap between **education** and **employment** by combining:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Blockchain transparency** for degree verification 🧾  
+- **AI-driven insights** (future upgrade) for career recommendations 🤖  
+- **Modern web experience** with React.js ⚛️  
+- **Enterprise-grade backend** built in Spring Boot ☕  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🔐 **CNIC-Based Secure Login**
+  - Safe and verified access for students and administrators.
+
+- 🧾 **Blockchain Degree Attestation**
+  - Ethereum smart contract integration for tamper-proof attestation.
+  - Generates blockchain-linked QR codes on verified documents.
+
+- 💳 **Online Payment Integration**
+  - Seamless attestation fee payments (via 1-Link gateway).
+
+- 🎯 **Career Recommendation (Planned Feature)**
+  - AI engine will suggest jobs based on skills, internships, and degree data.
+
+- 🏛️ **Role-Based Portals**
+  - Student, University, and HEC Admin dashboards.
+
+- 📊 **Interactive Dashboard**
+  - Modern UI for managing attestation requests, degree uploads, and job suggestions.
+
+---
+
+## 🧩 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | React.js (Vite / CRA) |
+| **Backend API** | Spring Boot (Java 21) |
+| **Database** | PostgreSQL |
+| **Blockchain** | Ethereum + Web3j |
+| **Storage** | Cloud / IPFS |
+| **Styling** | Tailwind CSS / Bootstrap |
+| **API Communication** | Axios |
+| **Authentication** | JWT |
+| **Version Control** | Git & GitHub |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/CareerKey-Frontend.git
+cd CareerKey-Frontend
